@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      GOOGLE_API_KEY: "AIzaSyDm1-4esKk3Jtt-fdzM9ohB-lOeuXtx7CY"
+      GOOGLE_CX: "b4f2cab0d3cbf49c5"
